@@ -1,0 +1,7 @@
+vhdl work "mux_2a1.vhd"
+vhdl work "Ejercicio1.vhd"
+vhdl work "mux_2a1_4bits.vhd"
+vhdl work "Ejercicio2.vhd"
+vhdl work "ca1_4bits.vhd"
+vhdl work "sumador_completo.vhd"
+vhdl work "Sumador_completo_tb.vhd"

@@ -1,0 +1,488 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Reading design: Representacion_maquina_estado.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Representacion_maquina_estado.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Representacion_maquina_estado"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : Representacion_maquina_estado
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Maquina.vhd" in Library work.
+Architecture behavioral of Entity maquina is up to date.
+Compiling vhdl file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/decodificador2a4.vhd" in Library work.
+Architecture behavioral of Entity decodificador2a4 is up to date.
+Compiling vhdl file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/decodificador.vhd" in Library work.
+Architecture behavioral of Entity decodificador is up to date.
+Compiling vhdl file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/multiplexor.vhd" in Library work.
+Architecture behavioral of Entity multiplexor is up to date.
+Compiling vhdl file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/seq_generator.vhd" in Library work.
+Architecture arch of Entity seq_generator is up to date.
+Compiling vhdl file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Intercambiador.vhd" in Library work.
+Architecture behavioral of Entity intercambiador is up to date.
+Compiling vhdl file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Representacion_maquina_estado.vhd" in Library work.
+Entity <representacion_maquina_estado> compiled.
+Entity <representacion_maquina_estado> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Representacion_maquina_estado> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Maquina> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <decodificador2a4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <decodificador> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <multiplexor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <seq_generator> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <Intercambiador> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ffD_reset> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Representacion_maquina_estado> in library <work> (Architecture <behavioral>).
+Entity <Representacion_maquina_estado> analyzed. Unit <Representacion_maquina_estado> generated.
+
+Analyzing Entity <Maquina> in library <work> (Architecture <behavioral>).
+Entity <Maquina> analyzed. Unit <Maquina> generated.
+
+Analyzing Entity <ffD_reset> in library <work> (Architecture <behavioral>).
+Entity <ffD_reset> analyzed. Unit <ffD_reset> generated.
+
+Analyzing Entity <decodificador2a4> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/decodificador2a4.vhd" line 55: Mux is complete : default of case is discarded
+Entity <decodificador2a4> analyzed. Unit <decodificador2a4> generated.
+
+Analyzing Entity <decodificador> in library <work> (Architecture <behavioral>).
+Entity <decodificador> analyzed. Unit <decodificador> generated.
+
+Analyzing Entity <multiplexor> in library <work> (Architecture <behavioral>).
+Entity <multiplexor> analyzed. Unit <multiplexor> generated.
+
+Analyzing Entity <seq_generator> in library <work> (Architecture <arch>).
+Entity <seq_generator> analyzed. Unit <seq_generator> generated.
+
+Analyzing Entity <Intercambiador> in library <work> (Architecture <behavioral>).
+Entity <Intercambiador> analyzed. Unit <Intercambiador> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <decodificador2a4>.
+    Related source file is "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/decodificador2a4.vhd".
+    Found 1-of-4 decoder for signal <D>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <decodificador2a4> synthesized.
+
+
+Synthesizing Unit <decodificador>.
+    Related source file is "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/decodificador.vhd".
+Unit <decodificador> synthesized.
+
+
+Synthesizing Unit <multiplexor>.
+    Related source file is "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/multiplexor.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <output>.
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <multiplexor> synthesized.
+
+
+Synthesizing Unit <seq_generator>.
+    Related source file is "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/seq_generator.vhd".
+    Found 18-bit up counter for signal <q_reg>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <seq_generator> synthesized.
+
+
+Synthesizing Unit <Intercambiador>.
+    Related source file is "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Intercambiador.vhd".
+Unit <Intercambiador> synthesized.
+
+
+Synthesizing Unit <ffD_reset>.
+    Related source file is "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/ffD_reset.vhd".
+    Found 1-bit register for signal <q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <ffD_reset> synthesized.
+
+
+Synthesizing Unit <Maquina>.
+    Related source file is "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Maquina.vhd".
+    Found 1-bit xor2 for signal <d0$xor0000> created at line 77.
+    Found 1-bit xor2 for signal <y5>.
+Unit <Maquina> synthesized.
+
+
+Synthesizing Unit <Representacion_maquina_estado>.
+    Related source file is "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Representacion_maquina_estado.vhd".
+Unit <Representacion_maquina_estado> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 18-bit up counter                                     : 1
+# Registers                                            : 2
+ 1-bit register                                        : 2
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 18-bit up counter                                     : 1
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Representacion_maquina_estado> ...
+
+Optimizing unit <Maquina> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Representacion_maquina_estado, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Representacion_maquina_estado.ngr
+Top Level Output File Name         : Representacion_maquina_estado
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 16
+
+Cell Usage :
+# BELS                             : 67
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 17
+#      LUT2                        : 4
+#      LUT3                        : 1
+#      LUT4                        : 7
+#      MUXCY                       : 17
+#      VCC                         : 1
+#      XORCY                       : 18
+# FlipFlops/Latches                : 20
+#      FDC                         : 18
+#      FDCE                        : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 15
+#      IBUF                        : 4
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       16  out of    960     1%  
+ Number of Slice Flip Flops:             20  out of   1920     1%  
+ Number of 4 input LUTs:                 30  out of   1920     1%  
+ Number of IOs:                          16
+ Number of bonded IOBs:                  16  out of     83    19%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 20    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 20    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 3.779ns (Maximum Frequency: 264.655MHz)
+   Minimum input arrival time before clock: 2.435ns
+   Maximum output required time after clock: 5.597ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.779ns (frequency: 264.655MHz)
+  Total number of paths / destination ports: 175 / 20
+-------------------------------------------------------------------------
+Delay:               3.779ns (Levels of Logic = 18)
+  Source:            Inst_seq_generator/q_reg_1 (FF)
+  Destination:       Inst_seq_generator/q_reg_17 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Inst_seq_generator/q_reg_1 to Inst_seq_generator/q_reg_17
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.514   0.509  Inst_seq_generator/q_reg_1 (Inst_seq_generator/q_reg_1)
+     LUT1:I0->O            1   0.612   0.000  Inst_seq_generator/Mcount_q_reg_cy<1>_rt (Inst_seq_generator/Mcount_q_reg_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Inst_seq_generator/Mcount_q_reg_cy<1> (Inst_seq_generator/Mcount_q_reg_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<2> (Inst_seq_generator/Mcount_q_reg_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<3> (Inst_seq_generator/Mcount_q_reg_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<4> (Inst_seq_generator/Mcount_q_reg_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<5> (Inst_seq_generator/Mcount_q_reg_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<6> (Inst_seq_generator/Mcount_q_reg_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<7> (Inst_seq_generator/Mcount_q_reg_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<8> (Inst_seq_generator/Mcount_q_reg_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<9> (Inst_seq_generator/Mcount_q_reg_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<10> (Inst_seq_generator/Mcount_q_reg_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<11> (Inst_seq_generator/Mcount_q_reg_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<12> (Inst_seq_generator/Mcount_q_reg_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<13> (Inst_seq_generator/Mcount_q_reg_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<14> (Inst_seq_generator/Mcount_q_reg_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<15> (Inst_seq_generator/Mcount_q_reg_cy<15>)
+     MUXCY:CI->O           0   0.051   0.000  Inst_seq_generator/Mcount_q_reg_cy<16> (Inst_seq_generator/Mcount_q_reg_cy<16>)
+     XORCY:CI->O           1   0.699   0.000  Inst_seq_generator/Mcount_q_reg_xor<17> (Result<17>)
+     FDC:D                     0.268          Inst_seq_generator/q_reg_17
+    ----------------------------------------
+    Total                      3.779ns (3.270ns logic, 0.509ns route)
+                                       (86.5% logic, 13.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 6 / 4
+-------------------------------------------------------------------------
+Offset:              2.435ns (Levels of Logic = 2)
+  Source:            x1 (PAD)
+  Destination:       Inst_Maquina/Inst_ffD_reset_Q0/q (FF)
+  Destination Clock: clk rising
+
+  Data Path: x1 to Inst_Maquina/Inst_ffD_reset_Q0/q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.449  x1_IBUF (x1_IBUF)
+     LUT4:I1->O            1   0.612   0.000  Inst_Maquina/d01 (Inst_Maquina/d0)
+     FDCE:D                    0.268          Inst_Maquina/Inst_ffD_reset_Q0/q
+    ----------------------------------------
+    Total                      2.435ns (1.986ns logic, 0.449ns route)
+                                       (81.6% logic, 18.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 31 / 10
+-------------------------------------------------------------------------
+Offset:              5.597ns (Levels of Logic = 2)
+  Source:            Inst_seq_generator/q_reg_17 (FF)
+  Destination:       an<3> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: Inst_seq_generator/q_reg_17 to an<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             11   0.514   0.945  Inst_seq_generator/q_reg_17 (Inst_seq_generator/q_reg_17)
+     LUT2:I0->O            1   0.612   0.357  an<3>1 (an_3_OBUF)
+     OBUF:I->O                 3.169          an_3_OBUF (an<3>)
+    ----------------------------------------
+    Total                      5.597ns (4.295ns logic, 1.302ns route)
+                                       (76.7% logic, 23.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.79 secs
+ 
+--> 
+
+Total memory usage is 244884 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

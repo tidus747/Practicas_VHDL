@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Bidirectional_buffer_controller.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Contador_19455.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Maquina_d_estados.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Prescaler.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Representacion.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Ultra_ping.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/abs_counter.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/decodificador.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/decodificador2a4.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/eco_counter.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/ffD_reset.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/measure_registers.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/multiplexor.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/seq_generator.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/seven_segment_mux.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

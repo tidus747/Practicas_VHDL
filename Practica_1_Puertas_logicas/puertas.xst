@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_1REP/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_1REP/xst"
+elaborate
+-ifn puertas.prj
+-ifmt mixed

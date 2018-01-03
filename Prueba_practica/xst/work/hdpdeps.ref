@@ -1,0 +1,15 @@
+V3 7
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio1.vhd" 2014/10/14.09:43:43 P.58f
+EN work/Ejercicio1 1413278226 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio1.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Ejercicio1/Behavioral 1413278227 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio1.vhd" \
+      EN work/Ejercicio1 1413278226
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio2.vhd" 2014/10/14.10:15:28 P.58f
+EN work/Ejercicio2 1413278228 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio2.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Ejercicio2/Behavioral 1413278229 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio2.vhd" \
+      EN work/Ejercicio2 1413278228 CP Ejercicio1

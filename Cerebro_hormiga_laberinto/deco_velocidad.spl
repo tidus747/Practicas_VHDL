@@ -1,0 +1,9 @@
+[Inputs]
+=estado[3:0]=
+=m_in[3:0]=
+=cm_in[3:0]=
+=dm_in[3:0]=
+[Outputs]
+=consigna_vel_der[7:0]=
+=consigna_vel_izq[7:0]=
+[BiDir]

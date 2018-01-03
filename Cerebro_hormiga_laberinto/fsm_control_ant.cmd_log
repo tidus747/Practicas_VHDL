@@ -1,0 +1,2 @@
+vhdtdtfi -prj Cerebr_hormiga -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebr_hormiga/fsm_control_ant.vhi" -module fsm_control_ant -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work fsm_control_ant.vhd 
+vhdtdtfi -prj Cerebr_hormiga -o C:/Users/Tami/Desktop/Cerebro_final/fsm_control_ant.vhi -module fsm_control_ant -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work fsm_control_ant.vhd 

@@ -1,0 +1,1 @@
+vhdtdtfi -prj CONTROLADOR_ULTRASONIDOS -o "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS/measures_registers.vhi" -module measures_registers -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ffD_reset.vhd -lib work meaures_registers.vhd 

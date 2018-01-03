@@ -1,0 +1,148 @@
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 "hormiga.ngc" hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.xst" -ofn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 hormiga.ngc hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.xst" -ofn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 hormiga.ngc hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.xst" -ofn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 hormiga.ngc hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.xst" -ofn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 hormiga.ngc hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.xst" -ofn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.syr" 
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.xst" -ofn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 hormiga.ngc hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.xst" -ofn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 hormiga.ngc hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.xst" -ofn "C:/Users/Tami/Desktop/Cerebro_final/hormiga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hormiga_pines.ucf -p xc3s100e-cp132-5 hormiga.ngc hormiga.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o hormiga_map.ncd hormiga.ngd hormiga.pcf 
+par -w -intstyle ise -ol high -t 1 hormiga_map.ncd hormiga.ncd hormiga.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml hormiga.twx hormiga.ncd -o hormiga.twr hormiga.pcf -ucf hormiga_pines.ucf 
+bitgen -intstyle ise -f hormiga.ut hormiga.ncd 

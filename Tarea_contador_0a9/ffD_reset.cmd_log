@@ -1,0 +1,1 @@
+vhdtdtfi -prj Tarea_contador -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/ffD_reset.vhi" -module ffD_reset -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ffD_reset.vhd 

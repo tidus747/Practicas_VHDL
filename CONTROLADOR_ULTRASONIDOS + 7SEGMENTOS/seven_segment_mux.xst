@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/xst"
+elaborate
+-ifn seven_segment_mux.prj
+-ifmt mixed

@@ -1,0 +1,10 @@
+EN visualizacion NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/visualizacion.vhd" sub00/vhpl08 1415832062
+AR ffd_reset behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/ffD_reset.vhd" sub00/vhpl01 1415743270
+EN contador0_a_9 NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.vhd" sub00/vhpl04 1415832363
+EN segundo NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/variador_de_frecuencia.vhd" sub00/vhpl02 1415832060
+AR visualizacion behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/visualizacion.vhd" sub00/vhpl09 1415832063
+EN decodificador NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/decodificador.vhd" sub00/vhpl06 1415832058
+AR contador0_a_9 behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.vhd" sub00/vhpl05 1415832364
+AR segundo divisor "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/variador_de_frecuencia.vhd" sub00/vhpl03 1415832061
+EN ffd_reset NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/ffD_reset.vhd" sub00/vhpl00 1415743269
+AR decodificador behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/decodificador.vhd" sub00/vhpl07 1415832059

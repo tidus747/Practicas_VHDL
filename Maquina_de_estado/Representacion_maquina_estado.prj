@@ -1,0 +1,7 @@
+vhdl work "seq_generator.vhd"
+vhdl work "multiplexor.vhd"
+vhdl work "Maquina.vhd"
+vhdl work "Intercambiador.vhd"
+vhdl work "decodificador2a4.vhd"
+vhdl work "decodificador.vhd"
+vhdl work "Representacion_maquina_estado.vhd"

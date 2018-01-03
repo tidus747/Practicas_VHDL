@@ -1,0 +1,16 @@
+AR ffd_reset behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/ffD_reset.vhd" sub00/vhpl01 1416620442
+EN seq_generator NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/seq_generator.vhd" sub00/vhpl10 1416698087
+EN representacion_maquina_estado NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Representacion_maquina_estado.vhd" sub00/vhpl12 1416698091
+EN intercambiador NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Intercambiador.vhd" sub00/vhpl14 1416698089
+AR maquina behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Maquina.vhd" sub00/vhpl03 1416698080
+EN multiplexor NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/multiplexor.vhd" sub00/vhpl08 1416698085
+AR multiplexor behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/multiplexor.vhd" sub00/vhpl09 1416698086
+AR intercambiador behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Intercambiador.vhd" sub00/vhpl15 1416698090
+AR representacion_maquina_estado behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Representacion_maquina_estado.vhd" sub00/vhpl13 1416698092
+AR decodificador2a4 behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/decodificador2a4.vhd" sub00/vhpl05 1416698082
+EN decodificador2a4 NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/decodificador2a4.vhd" sub00/vhpl04 1416698081
+EN decodificador NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/decodificador.vhd" sub00/vhpl06 1416698083
+EN maquina NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Maquina.vhd" sub00/vhpl02 1416698079
+AR seq_generator arch "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/seq_generator.vhd" sub00/vhpl11 1416698088
+EN ffd_reset NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/ffD_reset.vhd" sub00/vhpl00 1416620441
+AR decodificador behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/decodificador.vhd" sub00/vhpl07 1416698084

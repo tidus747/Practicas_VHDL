@@ -1,0 +1,33 @@
+//! **************************************************************************
+// Written by: Map P.58f on Wed Dec 10 17:24:26 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "an<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "led<0>" LOCATE = SITE "L14" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "en" LOCATE = SITE "P11" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "H12" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "led<4>" LOCATE = SITE "P12" LEVEL 1;
+COMP "sig_io" LOCATE = SITE "B5" LEVEL 1;
+COMP "led<5>" LOCATE = SITE "L13" LEVEL 1;
+COMP "led<6>" LOCATE = SITE "M12" LEVEL 1;
+COMP "izq_ad" LOCATE = SITE "A10" LEVEL 1;
+COMP "ant_der" LOCATE = SITE "J3" LEVEL 1;
+COMP "izq_at" LOCATE = SITE "B9" LEVEL 1;
+COMP "der_ad" LOCATE = SITE "C13" LEVEL 1;
+COMP "izq_pwm" LOCATE = SITE "C9" LEVEL 1;
+COMP "led_izq" LOCATE = SITE "M11" LEVEL 1;
+COMP "der_at" LOCATE = SITE "A13" LEVEL 1;
+COMP "der_pwm" LOCATE = SITE "D12" LEVEL 1;
+COMP "led_der" LOCATE = SITE "M5" LEVEL 1;
+COMP "ant_izq" LOCATE = SITE "A3" LEVEL 1;
+COMP "rst" LOCATE = SITE "L3" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

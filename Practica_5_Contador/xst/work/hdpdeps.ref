@@ -1,0 +1,8 @@
+V3 3
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica5/contador.vhd" 2014/11/11.09:53:00 P.58f
+EN work/contador 1415699583 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica5/contador.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/contador/Behavioral 1415699584 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica5/contador.vhd" \
+      EN work/contador 1415699583

@@ -1,0 +1,30 @@
+V3 15
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Comparador_8bits.vhd" 2014/11/11.10:53:59 P.58f
+EN work/Comparador_8bits 1416303372 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Comparador_8bits.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Comparador_8bits/Behavioral 1416303373 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Comparador_8bits.vhd" \
+      EN work/Comparador_8bits 1416303372
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/contador.vhd" 2014/11/11.10:06:06 P.58f
+EN work/contador 1416303376 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/contador.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/contador/Behavioral 1416303377 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/contador.vhd" \
+      EN work/contador 1416303376
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.vhd" 2014/11/18.09:33:54 P.58f
+EN work/Motor 1416303378 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Motor/Behavioral 1416303379 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.vhd" \
+      EN work/Motor 1416303378 CP Comparador_8bits CP cont_preescalado CP contador
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Prescaler.vhd" 2014/11/18.09:36:00 P.58f
+EN work/cont_preescalado 1416303374 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Prescaler.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/cont_preescalado/Behavioral 1416303375 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Prescaler.vhd" \
+      EN work/cont_preescalado 1416303374

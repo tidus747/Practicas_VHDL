@@ -1,0 +1,19 @@
+NET clk LOC = B8;
+
+
+net led<0> LOC = L14 ;
+net led<1> LOC = H12 ;
+net led<2> LOC = N14 ;
+net led<3> LOC = N11 ;
+net led<4> LOC = P12 ;
+net led<5> LOC = L13 ;
+net led<6> LOC = M12 ;
+
+NET an<3> LOC = K14 ;
+NET an<2> LOC = M13 ;
+NET an<1> LOC = J12 ;
+NET an<0> LOC = F12 ;
+
+NET sig_io LOC = B2 ;
+NET en LOC = P11;
+NET rst LOC = L3;

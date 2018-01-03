@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador2a4.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/multiplexor.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/seq_generator.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4 - Versión/Ejercicio1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4 - Versión/Ejercicio2.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4 - Versión/Visualizacion.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4 - Versión/Visualizacion.vhd</arg>&quot; Line <arg fmt="%d" index="2">66</arg>. <arg fmt="%s" index="3">Syntax error near &quot;diodo&quot;.</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4 - Versión/ca1_4bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4 - Versión/mux_2a1.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4 - Versión/mux_2a1_4bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4 - Versión/seven_segment_mux.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4 - Versión/sumador_completo.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

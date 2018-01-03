@@ -1,0 +1,1 @@
+vhdtdtfi -prj Practica_6 -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/contador.vhi" -module contador -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work contador.vhd 

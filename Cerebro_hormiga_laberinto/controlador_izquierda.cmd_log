@@ -1,0 +1,1 @@
+vhdtdtfi -prj Cerebr_hormiga -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebr_hormiga/controlador_izquierda.vhi" -module controlador_izquierda -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work prescaler_motor.vhd -lib work contador.vhd -lib work Comparador_8bits.vhd -lib work controlador_izquierda.vhd 

@@ -1,0 +1,11 @@
+vhdtdtfi -prj Cerebr_hormiga -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebr_hormiga/deco_velocidad.vhi" -module deco_velocidad -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work deco_velocidad.vhd 
+vhdtdtfi -prj Cerebr_hormiga -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/deco_velocidad.vhi" -module deco_velocidad -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work deco_velocidad.vhd 
+vhdtdtfi -prj Cerebr_hormiga -o C:/Users/Tami/Desktop/Cerebro_final/deco_velocidad.vhi -module deco_velocidad -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work deco_velocidad.vhd 
+vhdtdtfi -prj Cerebr_hormiga -o C:/Users/Tami/Desktop/Cerebro_final/deco_velocidad.vhi -module deco_velocidad -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work deco_velocidad.vhd 
+vhdtdtfi -prj Cerebr_hormiga -o C:/Users/Tami/Desktop/Cerebro_final/deco_velocidad.vhi -module deco_velocidad -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work deco_velocidad.vhd 
+vhdtdtfi -prj Cerebr_hormiga -o C:/Users/Tami/Desktop/Cerebro_final/deco_velocidad.vhi -module deco_velocidad -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work deco_velocidad.vhd 
+vhdtdtfi -lib work deco_velocidad.vhd -prj Cerebr_hormiga -o deco_velocidad.spl -module deco_velocidad -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work deco_velocidad.vhd -prj Cerebr_hormiga -o deco_velocidad.spl -module deco_velocidad -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work deco_velocidad.vhd -prj Cerebr_hormiga -o deco_velocidad.spl -module deco_velocidad -template C:/Xilinx/14.5/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e deco_velocidad.spl C:/Users/Tami/Desktop/Cerebro_final/deco_velocidad.sym 
+vhdtdtfi -prj Cerebr_hormiga -o C:/Users/Tami/Desktop/Cerebro_final/deco_velocidad.vhi -module deco_velocidad -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work deco_velocidad.vhd 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador2a4_tb_isim_beh.exe" -prj "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador2a4_tb_beh.prj" "work.decodificador2a4_tb" 

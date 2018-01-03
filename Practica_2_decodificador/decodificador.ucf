@@ -1,0 +1,11 @@
+# Pin assignment for dispCt1
+# Connected to Basys2 onBoard 7seg display
+
+NET "seg<0>" LOC= "L14";
+NET "seg<1>" LOC= "H12";
+NET "seg<2>" LOC= "N14";
+NET "seg<3>" LOC= "N11";
+NET "seg<4>" LOC= "P12";
+NET "seg<5>" LOC= "L13";
+NET "seg<6>" LOC= "M12";
+NET "dp" LOC = "N13";

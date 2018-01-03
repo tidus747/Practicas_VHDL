@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/cycle_counter_isim_beh.exe" -prj "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/cycle_counter_beh.prj" "work.cycle_counter" 

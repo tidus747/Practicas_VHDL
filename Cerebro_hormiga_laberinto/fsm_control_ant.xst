@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebro_final/xst"
+elaborate
+-ifn fsm_control_ant.prj
+-ifmt mixed

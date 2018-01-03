@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="1566" delta="unknown" >"C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/sumador_completo.vhd" Line 98: Expression has <arg fmt="%d" index="1">4</arg> elements ; formal <arg fmt="%s" index="2">a</arg> expects <arg fmt="%d" index="3">3</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1566" delta="unknown" >"C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/sumador_completo.vhd" Line 99: Expression has <arg fmt="%d" index="1">4</arg> elements ; formal <arg fmt="%s" index="2">b</arg> expects <arg fmt="%d" index="3">3</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1566" delta="unknown" >"C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/sumador_completo.vhd" Line 101: Expression has <arg fmt="%d" index="1">4</arg> elements ; formal <arg fmt="%s" index="2">s1</arg> expects <arg fmt="%d" index="3">3</arg>
+</msg>
+
+<msg type="error" file="Simulator" num="777" delta="unknown" >Static elaboration of top level VHDL design unit <arg fmt="%s" index="1">sumador_completo_tb</arg> in library <arg fmt="%s" index="2">work</arg> failed
+</msg>
+
+</messages>
+

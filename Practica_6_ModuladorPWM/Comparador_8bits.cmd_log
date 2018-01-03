@@ -1,0 +1,1 @@
+vhdtdtfi -prj Practica_6 -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Comparador_8bits.vhi" -module Comparador_8bits -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Comparador_8bits.vhd 

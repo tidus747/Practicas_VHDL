@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/xst"
+elaborate
+-ifn mux_2a1.prj
+-ifmt mixed

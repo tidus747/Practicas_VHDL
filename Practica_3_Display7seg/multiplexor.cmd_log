@@ -1,0 +1,1 @@
+vhdtdtfi -prj Practica_3REP -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/multiplexor.vhi" -module multiplexor -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work multiplexor.vhd 

@@ -1,0 +1,11 @@
+NET a<0> LOC = P11; 
+NET a<1> LOC = L3 ;
+NET a<2> LOC = K3 ;
+NET b<0> LOC = B4 ;
+NET b<1> LOC = G3 ;
+NET b<2> LOC = F3 ;
+NET cin LOC= E2 ;
+NET s1<0> LOC= M5 ;
+NET s1<1> LOC = M11 ;
+NET s1<2> LOC = P7;
+NET overflow LOC = P6;

@@ -1,0 +1,4 @@
+vhdl work "Prescaler.vhd"
+vhdl work "contador.vhd"
+vhdl work "Comparador_8bits.vhd"
+vhdl work "Motor.vhd"

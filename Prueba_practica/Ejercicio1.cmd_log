@@ -1,0 +1,1 @@
+vhdtdtfi -prj Prueba_practica -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio1.vhi" -module Ejercicio1 -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Ejercicio1.vhd 

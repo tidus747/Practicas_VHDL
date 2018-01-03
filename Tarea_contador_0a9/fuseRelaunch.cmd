@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9_tb_isim_beh.exe" -prj "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9_tb_beh.prj" "work.contador0_a_9_tb" 

@@ -1,0 +1,10 @@
+EN seven_segment_mux NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/seven_segment_mux.vhd" sub00/vhpl08 1413129446
+EN seq_generator NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/seq_generator.vhd" sub00/vhpl04 1413129442
+EN multiplexor NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/multiplexor.vhd" sub00/vhpl00 1413129438
+AR multiplexor behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/multiplexor.vhd" sub00/vhpl01 1413129439
+AR seven_segment_mux behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/seven_segment_mux.vhd" sub00/vhpl09 1413129447
+AR decodificador2a4 behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador2a4.vhd" sub00/vhpl03 1413129441
+EN decodificador2a4 NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador2a4.vhd" sub00/vhpl02 1413129440
+EN decodificador NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador.vhd" sub00/vhpl06 1413129444
+AR seq_generator arch "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/seq_generator.vhd" sub00/vhpl05 1413129443
+AR decodificador behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador.vhd" sub00/vhpl07 1413129445

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.syr" 
+vhdtdtfi -prj Tarea_contador -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.vhi" -module contador0_a_9 -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work contador0_a_9.vhd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.syr" 

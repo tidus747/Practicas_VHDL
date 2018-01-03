@@ -1,0 +1,17 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/Sumador_completo_tb_isim_beh.exe -prj C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/Sumador_completo_tb_beh.prj work.Sumador_completo_tb 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/mux_2a1.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/Ejercicio1.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/mux_2a1_4bits.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/Ejercicio2.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/ca1_4bits.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/sumador_completo.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/Sumador_completo_tb.vhd" into library work
+Starting static elaboration
+ERROR:HDLCompiler:1566 - "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/sumador_completo.vhd" Line 98: Expression has 4 elements ; formal a expects 3
+ERROR:HDLCompiler:1566 - "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/sumador_completo.vhd" Line 99: Expression has 4 elements ; formal b expects 3
+ERROR:HDLCompiler:1566 - "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/sumador_completo.vhd" Line 101: Expression has 4 elements ; formal s1 expects 3
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit sumador_completo_tb in library work failed

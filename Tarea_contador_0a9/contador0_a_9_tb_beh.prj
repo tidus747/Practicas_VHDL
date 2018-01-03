@@ -1,0 +1,3 @@
+vhdl work "ffD_reset.vhd"
+vhdl work "contador0_a_9.vhd"
+vhdl work "contador0_a_9_tb.vhd"

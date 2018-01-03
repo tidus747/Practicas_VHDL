@@ -1,0 +1,35 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Representacin_tb_isim_beh.exe -prj C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Representacin_tb_beh.prj work.Representacin_tb 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/ffD_reset.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/seq_generator.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/multiplexor.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Maquina.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Intercambiador.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/decodificador2a4.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/decodificador.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Representacion_maquina_estado.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Representacin_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity ffD_reset [ffd_reset_default]
+Compiling architecture behavioral of entity Maquina [maquina_default]
+Compiling architecture behavioral of entity decodificador2a4 [decodificador2a4_default]
+Compiling architecture behavioral of entity decodificador [decodificador_default]
+Compiling architecture behavioral of entity multiplexor [multiplexor_default]
+Compiling architecture arch of entity seq_generator [seq_generator_default]
+Compiling architecture behavioral of entity Intercambiador [intercambiador_default]
+Compiling architecture behavioral of entity Representacion_maquina_estado [representacion_maquina_estado_de...]
+Compiling architecture behavior of entity representacin_tb
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: El sistema no puede encontrar la ruta especificada, "isim\Representacin_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 20 VHDL Units
+Built simulation executable C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Representacin_tb_isim_beh.exe
+Fuse Memory Usage: 34476 KB
+Fuse CPU Usage: 780 ms

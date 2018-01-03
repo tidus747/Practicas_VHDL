@@ -1,0 +1,29 @@
+Command line:
+   puertas_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  51138
+
+Sat Oct 11 18:50:14 2014
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 358.085 Meg
+
+ Total Signals          : 14
+ Total Nets             : 7
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 6
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 367
+Total Line Count : 18
+
+ Total Simulation Time: 0.875 sec
+
+ Current Memory Usage: 358.085 Meg
+
+Sat Oct 11 18:57:50 2014
+

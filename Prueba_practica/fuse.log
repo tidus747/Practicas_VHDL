@@ -1,0 +1,22 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio2_tb_isim_beh.exe -prj C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio2_tb_beh.prj work.Ejercicio2_tb 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio1.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio2.vhd" into library work
+Parsing VHDL file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio2_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity Ejercicio1 [ejercicio1_default]
+Compiling architecture behavioral of entity Ejercicio2 [ejercicio2_default]
+Compiling architecture behavior of entity ejercicio2_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: El sistema no puede encontrar la ruta especificada, "isim\Ejercicio2_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 7 VHDL Units
+Built simulation executable C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio2_tb_isim_beh.exe
+Fuse Memory Usage: 28496 KB
+Fuse CPU Usage: 1828 ms

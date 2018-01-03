@@ -1,0 +1,114 @@
+V3 59
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/abs_counter.vhd" 2014/11/27.01:20:14 P.58f
+EN work/abs_counter 1417478735 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/abs_counter.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/abs_counter/Behavioral 1417478736 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/abs_counter.vhd" \
+      EN work/abs_counter 1417478735
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Bidirectional_buffer_controller.vhd" 2014/11/26.21:50:48 P.58f
+EN work/Bidirectional_buffer_controller 1417478749 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Bidirectional_buffer_controller.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Bidirectional_buffer_controller/Behavioral 1417478750 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Bidirectional_buffer_controller.vhd" \
+      EN work/Bidirectional_buffer_controller 1417478749
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Contador_19455.vhd" 2014/11/27.01:21:48 P.58f
+EN work/cycle_counter 1417478757 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Contador_19455.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/cycle_counter/Behavioral 1417478758 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Contador_19455.vhd" \
+      EN work/cycle_counter 1417478757 CP abs_counter
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/decodificador.vhd" 2014/11/27.10:54:12 P.58f
+EN work/decodificador2 1417478745 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/decodificador.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/decodificador2/Behavioral 1417478746 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/decodificador.vhd" \
+      EN work/decodificador2 1417478745
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/decodificador2a4.vhd" 2014/10/12.15:11:33 P.58f
+EN work/decodificador2a4 1417478741 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/decodificador2a4.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/decodificador2a4/Behavioral 1417478742 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/decodificador2a4.vhd" \
+      EN work/decodificador2a4 1417478741
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/eco_counter.vhd" 2014/11/27.00:17:42 P.58f
+EN work/eco_counter 1417478751 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/eco_counter.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/eco_counter/Behavioral 1417478752 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/eco_counter.vhd" \
+      EN work/eco_counter 1417478751 CP abs_counter
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/ffD_reset.vhd" 2014/11/26.22:55:04 P.58f
+EN work/ffD_reset 1417478737 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/ffD_reset.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/ffD_reset/Behavioral 1417478738 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/ffD_reset.vhd" \
+      EN work/ffD_reset 1417478737
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Maquina_d_estados.vhd" 2014/11/26.12:33:56 P.58f
+EN work/Maquina_d_estados 1417478747 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Maquina_d_estados.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Maquina_d_estados/Behavioral 1417478748 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Maquina_d_estados.vhd" \
+      EN work/Maquina_d_estados 1417478747
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/measure_registers.vhd" 2014/11/27.00:56:51 P.58f
+EN work/measure_registers 1417478753 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/measure_registers.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/measure_registers/Behavioral 1417478754 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/measure_registers.vhd" \
+      EN work/measure_registers 1417478753 CP ffD_reset
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/multiplexor.vhd" 2014/10/12.00:53:38 P.58f
+EN work/multiplexor 1417478739 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/multiplexor.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/multiplexor/Behavioral 1417478740 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/multiplexor.vhd" \
+      EN work/multiplexor 1417478739
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Prescaler.vhd" 2014/11/27.13:09:03 P.58f
+EN work/cont_preescalado 1417478755 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Prescaler.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/cont_preescalado/Behavioral 1417478756 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Prescaler.vhd" \
+      EN work/cont_preescalado 1417478755
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Representacion.vhd" 2014/11/27.01:52:32 P.58f
+EN work/Representacion 1417478763 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Representacion.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/Representacion/Behavioral 1417478764 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Representacion.vhd" \
+      EN work/Representacion 1417478763 CP Ultra_ping CP seven_segment_mux
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/seq_generator.vhd" 2014/10/07.08:20:05 P.58f
+EN work/seq_generator 1417478743 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/seq_generator.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/seq_generator/arch 1417478744 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/seq_generator.vhd" \
+      EN work/seq_generator 1417478743
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/seven_segment_mux.vhd" 2014/11/27.01:51:43 P.58f
+EN work/seven_segment_mux 1417478761 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/seven_segment_mux.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/seven_segment_mux/Behavioral 1417478762 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/seven_segment_mux.vhd" \
+      EN work/seven_segment_mux 1417478761 CP multiplexor CP decodificador2a4 \
+      CP seq_generator CP decodificador2
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Ultra_ping.vhd" 2014/11/27.13:11:41 P.58f
+EN work/Ultra_ping 1417478759 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Ultra_ping.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/Ultra_ping/Behavioral 1417478760 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Ultra_ping.vhd" \
+      EN work/Ultra_ping 1417478759 CP Maquina_d_estados \
+      CP Bidirectional_buffer_controller CP eco_counter CP measure_registers \
+      CP cont_preescalado CP cycle_counter

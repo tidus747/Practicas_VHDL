@@ -1,0 +1,3 @@
+vhdl isim_temp "abs_counter.vhd"
+vhdl isim_temp "eco_counter.vhd"
+vhdl isim_temp "eco_counter_tb.vhd"

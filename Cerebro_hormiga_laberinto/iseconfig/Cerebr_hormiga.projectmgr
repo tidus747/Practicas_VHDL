@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Cerebr_hormiga" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Motor - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|Motor.vhd</ClosedNode>
+         <ClosedNode>/Ultra_ping - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|Ultra_ping.vhd</ClosedNode>
+         <ClosedNode>/Ultra_ping - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|Ultra_ping.vhd/Inst_cycle_counter - cycle_counter - Behavioral</ClosedNode>
+         <ClosedNode>/Ultra_ping - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|Ultra_ping.vhd/Inst_eco_counter - eco_counter - Behavioral</ClosedNode>
+         <ClosedNode>/Ultra_ping - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|Ultra_ping.vhd/Inst_measure_registers - measure_registers - Behavioral</ClosedNode>
+         <ClosedNode>/anti_mod - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|anti_mod.vhd</ClosedNode>
+         <ClosedNode>/controlador_derecha - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|Motor.vhd</ClosedNode>
+         <ClosedNode>/controlador_izquierda - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|controlador_izquierda.vhd</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Ivan|Desktop|Cerebro_final_Versión2|hormiga.vhd/Inst_Ultra_ping - Ultra_ping - Behavioral</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|hormiga.vhd</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|hormiga.vhd/Inst_Ultra_ping - Ultra_ping - Behavioral</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|hormiga.vhd/Inst_controlador_derecha - controlador_derecha - Behavioral</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|hormiga.vhd/Inst_controlador_izquierda - controlador_izquierda - Behavioral</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|hormiga.vhd/Inst_seven_segment_mux - seven_segment_mux - Behavioral</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebro_final|hormiga.vhd/Inst_Ultra_ping - Ultra_ping - Behavioral</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebro_final|hormiga.vhd/Inst_controlador_derecha - controlador_derecha - Behavioral</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebro_final|hormiga.vhd/Inst_controlador_izquierda - controlador_izquierda - Behavioral</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebro_final|hormiga.vhd/Inst_seven_segment_mux - seven_segment_mux - Behavioral</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Tami|Desktop|Cerebro_final|hormiga.vhd</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Tami|Desktop|Cerebro_final|hormiga.vhd/Inst_Ultra_ping - Ultra_ping - Behavioral</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Tami|Desktop|Cerebro_final|hormiga.vhd/Inst_controlador_derecha - controlador_derecha - Behavioral</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Tami|Desktop|Cerebro_final|hormiga.vhd/Inst_controlador_izquierda - controlador_izquierda - Behavioral</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Tami|Desktop|Cerebro_final|hormiga.vhd/Inst_seven_segment_mux - seven_segment_mux - Behavioral</ClosedNode>
+         <ClosedNode>/seven_segment_mux - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|seven_segment_mux.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Inst_deco_velocidad - deco_velocidad - Behavioral (C:/Users/Ivan/Desktop/Cerebro_final_Versión2/deco_velocidad.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000238000000020000000000000000000000000200000064ffffffff000000810000000300000002000002380000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Inst_deco_velocidad - deco_velocidad - Behavioral (C:/Users/Ivan/Desktop/Cerebro_final_Versión2/deco_velocidad.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000012d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000012d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000f80000000100000000000000240000000100000000000000660000000100000000000000fb0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Cerebro.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000cb0000007a01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/DECO_VELOCIDAD_tb - behavior C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|DECO_VELOCIDAD_tb.vhd</ClosedNode>
+         <ClosedNode>/Ultra_ping - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|Ultra_ping.vhd</ClosedNode>
+         <ClosedNode>/cerebro_tb - behavior C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|cerebro_tb.vhd</ClosedNode>
+         <ClosedNode>/contador_tb - behavior C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|contador_tb.vhd</ClosedNode>
+         <ClosedNode>/controlador_derecha - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|Motor.vhd</ClosedNode>
+         <ClosedNode>/controlador_izquierda - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|controlador_izquierda.vhd</ClosedNode>
+         <ClosedNode>/debounce_tb - behavior C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|debounce_tb.vhd</ClosedNode>
+         <ClosedNode>/deco_velocidad_2_tb - behavior C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|deco_velocidad_2_tb.vhd</ClosedNode>
+         <ClosedNode>/hormiga - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|hormiga.vhd</ClosedNode>
+         <ClosedNode>/seven_segment_mux - Behavioral C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|seven_segment_mux.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>debounce_tb - behavior (C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebr_hormiga/debounce_tb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000183000000020000000000000000000000000200000064ffffffff000000810000000300000002000001830000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>debounce_tb - behavior (C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebr_hormiga/debounce_tb.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a8000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a8000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/DECO_VELOCIDAD_tb - behavior C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|DECO_VELOCIDAD_tb.vhd</ClosedNode>
+         <ClosedNode>/cerebro_tb - behavior C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|cerebro_tb.vhd</ClosedNode>
+         <ClosedNode>/contador_tb - behavior C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|contador_tb.vhd</ClosedNode>
+         <ClosedNode>/debounce_tb - behavior C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|debounce_tb.vhd</ClosedNode>
+         <ClosedNode>/deco_velocidad_2_tb - behavior C:|Users|Ivan|Desktop|Practicas digital  Repeticion|Realizacion|Cerebr_hormiga|deco_velocidad_2_tb.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000183000000020000000000000000000000000200000064ffffffff000000810000000300000002000001830000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a8000000010000000100000000000000000000000064ffffffff000000810000000000000001000001a80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

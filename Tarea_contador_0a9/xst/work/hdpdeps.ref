@@ -1,0 +1,36 @@
+V3 19
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.vhd" 2014/11/12.11:50:11 P.58f
+EN work/contador0_a_9 1415832363 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/contador0_a_9/Behavioral 1415832364 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/contador0_a_9.vhd" \
+      EN work/contador0_a_9 1415832363 CP ffD_reset
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/decodificador.vhd" 2014/10/11.18:14:12 P.58f
+EN work/decodificador 1415832058 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/decodificador.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/decodificador/Behavioral 1415832059 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/decodificador.vhd" \
+      EN work/decodificador 1415832058
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/ffD_reset.vhd" 2014/11/11.19:06:58 P.58f
+EN work/ffD_reset 1415743269 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/ffD_reset.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/ffD_reset/Behavioral 1415743270 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/ffD_reset.vhd" \
+      EN work/ffD_reset 1415743269
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/variador_de_frecuencia.vhd" 2014/11/12.20:49:24 P.58f
+EN work/segundo 1415832060 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/variador_de_frecuencia.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/segundo/divisor 1415832061 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/variador_de_frecuencia.vhd" \
+      EN work/segundo 1415832060
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/visualizacion.vhd" 2014/11/12.22:40:51 P.58f
+EN work/visualizacion 1415832062 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/visualizacion.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/visualizacion/Behavioral 1415832063 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/visualizacion.vhd" \
+      EN work/visualizacion 1415832062 CP contador0_a_9 CP decodificador CP segundo

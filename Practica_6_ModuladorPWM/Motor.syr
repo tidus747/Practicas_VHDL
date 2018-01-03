@@ -1,0 +1,497 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Reading design: Motor.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Motor.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Motor"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : Motor
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Comparador_8bits.vhd" in Library work.
+Architecture behavioral of Entity comparador_8bits is up to date.
+Compiling vhdl file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Prescaler.vhd" in Library work.
+Entity <cont_preescalado> compiled.
+Entity <cont_preescalado> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/contador.vhd" in Library work.
+Architecture behavioral of Entity contador is up to date.
+Compiling vhdl file "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.vhd" in Library work.
+Architecture behavioral of Entity motor is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Motor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Comparador_8bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <cont_preescalado> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <contador> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Motor> in library <work> (Architecture <behavioral>).
+Entity <Motor> analyzed. Unit <Motor> generated.
+
+Analyzing Entity <Comparador_8bits> in library <work> (Architecture <behavioral>).
+Entity <Comparador_8bits> analyzed. Unit <Comparador_8bits> generated.
+
+Analyzing Entity <cont_preescalado> in library <work> (Architecture <behavioral>).
+Entity <cont_preescalado> analyzed. Unit <cont_preescalado> generated.
+
+Analyzing Entity <contador> in library <work> (Architecture <behavioral>).
+Entity <contador> analyzed. Unit <contador> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Comparador_8bits>.
+    Related source file is "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Comparador_8bits.vhd".
+    Found 8-bit comparator greatequal for signal <pwm$cmp_ge0000> created at line 47.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <Comparador_8bits> synthesized.
+
+
+Synthesizing Unit <cont_preescalado>.
+    Related source file is "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Prescaler.vhd".
+    Found 1-bit register for signal <clk_out_aux>.
+    Found 12-bit up counter for signal <cuenta>.
+    Found 12-bit adder for signal <cuenta$add0000> created at line 51.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <cont_preescalado> synthesized.
+
+
+Synthesizing Unit <contador>.
+    Related source file is "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/contador.vhd".
+    Found 8-bit up counter for signal <cuenta>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <contador> synthesized.
+
+
+Synthesizing Unit <Motor>.
+    Related source file is "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.vhd".
+Unit <Motor> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 12-bit adder                                          : 1
+# Counters                                             : 2
+ 12-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 1
+ 1-bit register                                        : 1
+# Comparators                                          : 1
+ 8-bit comparator greatequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 12-bit adder                                          : 1
+# Counters                                             : 2
+ 12-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Comparators                                          : 1
+ 8-bit comparator greatequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Motor> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Motor, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 21
+ Flip-Flops                                            : 21
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Motor.ngr
+Top Level Output File Name         : Motor
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 15
+
+Cell Usage :
+# BELS                             : 130
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 29
+#      LUT2                        : 8
+#      LUT4                        : 14
+#      LUT4_D                      : 3
+#      MUXCY                       : 37
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 21
+#      FDC                         : 20
+#      FDE                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 11
+#      OBUF                        : 3
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       29  out of    960     3%  
+ Number of Slice Flip Flops:             21  out of   1920     1%  
+ Number of 4 input LUTs:                 59  out of   1920     3%  
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of     83    18%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)       | Load  |
+-----------------------------------+-----------------------------+-------+
+clk                                | BUFGP                       | 13    |
+Inst_cont_preescalado/clk_out_aux  | NONE(Inst_contador/cuenta_0)| 8     |
+-----------------------------------+-----------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 20    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.289ns (Maximum Frequency: 159.000MHz)
+   Minimum input arrival time before clock: 4.707ns
+   Maximum output required time after clock: 7.265ns
+   Maximum combinational path delay: 7.752ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.289ns (frequency: 159.000MHz)
+  Total number of paths / destination ports: 1093 / 14
+-------------------------------------------------------------------------
+Delay:               6.289ns (Levels of Logic = 10)
+  Source:            Inst_cont_preescalado/cuenta_1 (FF)
+  Destination:       Inst_cont_preescalado/clk_out_aux (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Inst_cont_preescalado/cuenta_1 to Inst_cont_preescalado/clk_out_aux
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.514   0.532  Inst_cont_preescalado/cuenta_1 (Inst_cont_preescalado/cuenta_1)
+     LUT1:I0->O            1   0.612   0.000  Inst_cont_preescalado/Madd_cuenta_add0000_cy<1>_rt (Inst_cont_preescalado/Madd_cuenta_add0000_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Inst_cont_preescalado/Madd_cuenta_add0000_cy<1> (Inst_cont_preescalado/Madd_cuenta_add0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_cont_preescalado/Madd_cuenta_add0000_cy<2> (Inst_cont_preescalado/Madd_cuenta_add0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_cont_preescalado/Madd_cuenta_add0000_cy<3> (Inst_cont_preescalado/Madd_cuenta_add0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_cont_preescalado/Madd_cuenta_add0000_cy<4> (Inst_cont_preescalado/Madd_cuenta_add0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_cont_preescalado/Madd_cuenta_add0000_cy<5> (Inst_cont_preescalado/Madd_cuenta_add0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_cont_preescalado/Madd_cuenta_add0000_cy<6> (Inst_cont_preescalado/Madd_cuenta_add0000_cy<6>)
+     XORCY:CI->O           1   0.699   0.360  Inst_cont_preescalado/Madd_cuenta_add0000_xor<7> (Inst_cont_preescalado/cuenta_add0000<7>)
+     LUT4_D:I3->O         12   0.612   0.847  Inst_cont_preescalado/cuenta_cmp_eq000023 (Inst_cont_preescalado/cuenta_cmp_eq000023)
+     LUT4:I2->O            1   0.612   0.357  Inst_cont_preescalado/clk_out_aux_and00001 (Inst_cont_preescalado/clk_out_aux_and0000)
+     FDE:CE                    0.483          Inst_cont_preescalado/clk_out_aux
+    ----------------------------------------
+    Total                      6.289ns (4.194ns logic, 2.096ns route)
+                                       (66.7% logic, 33.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_cont_preescalado/clk_out_aux'
+  Clock period: 3.286ns (frequency: 304.280MHz)
+  Total number of paths / destination ports: 36 / 8
+-------------------------------------------------------------------------
+Delay:               3.286ns (Levels of Logic = 8)
+  Source:            Inst_contador/cuenta_1 (FF)
+  Destination:       Inst_contador/cuenta_7 (FF)
+  Source Clock:      Inst_cont_preescalado/clk_out_aux rising
+  Destination Clock: Inst_cont_preescalado/clk_out_aux rising
+
+  Data Path: Inst_contador/cuenta_1 to Inst_contador/cuenta_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.514   0.532  Inst_contador/cuenta_1 (Inst_contador/cuenta_1)
+     LUT1:I0->O            1   0.612   0.000  Inst_contador/Mcount_cuenta_cy<1>_rt (Inst_contador/Mcount_cuenta_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Inst_contador/Mcount_cuenta_cy<1> (Inst_contador/Mcount_cuenta_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_contador/Mcount_cuenta_cy<2> (Inst_contador/Mcount_cuenta_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_contador/Mcount_cuenta_cy<3> (Inst_contador/Mcount_cuenta_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_contador/Mcount_cuenta_cy<4> (Inst_contador/Mcount_cuenta_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_contador/Mcount_cuenta_cy<5> (Inst_contador/Mcount_cuenta_cy<5>)
+     MUXCY:CI->O           0   0.051   0.000  Inst_contador/Mcount_cuenta_cy<6> (Inst_contador/Mcount_cuenta_cy<6>)
+     XORCY:CI->O           1   0.699   0.000  Inst_contador/Mcount_cuenta_xor<7> (Result<7>1)
+     FDC:D                     0.268          Inst_contador/cuenta_7
+    ----------------------------------------
+    Total                      3.286ns (2.755ns logic, 0.532ns route)
+                                       (83.8% logic, 16.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.707ns (Levels of Logic = 3)
+  Source:            reset (PAD)
+  Destination:       Inst_cont_preescalado/clk_out_aux (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to Inst_cont_preescalado/clk_out_aux
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            21   1.106   1.111  reset_IBUF (reset_IBUF)
+     LUT4:I0->O            1   0.612   0.426  Inst_cont_preescalado/clk_out_aux_and00001_SW0 (N52)
+     LUT4:I1->O            1   0.612   0.357  Inst_cont_preescalado/clk_out_aux_and00001 (Inst_cont_preescalado/clk_out_aux_and0000)
+     FDE:CE                    0.483          Inst_cont_preescalado/clk_out_aux
+    ----------------------------------------
+    Total                      4.707ns (2.813ns logic, 1.894ns route)
+                                       (59.8% logic, 40.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_cont_preescalado/clk_out_aux'
+  Total number of paths / destination ports: 16 / 1
+-------------------------------------------------------------------------
+Offset:              7.265ns (Levels of Logic = 11)
+  Source:            Inst_contador/cuenta_0 (FF)
+  Destination:       pwm (PAD)
+  Source Clock:      Inst_cont_preescalado/clk_out_aux rising
+
+  Data Path: Inst_contador/cuenta_0 to pwm
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.514   0.532  Inst_contador/cuenta_0 (Inst_contador/cuenta_0)
+     LUT2:I0->O            1   0.612   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_lut<0> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<0> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<1> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<2> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<3> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<4> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<5> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<6> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<6>)
+     MUXCY:CI->O           1   0.399   0.357  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<7> (Inst_Comparador_8bits/pwm_cmp_ge0000)
+     INV:I->O              1   0.612   0.357  Inst_Comparador_8bits/pwm1_INV_0 (pwm_OBUF)
+     OBUF:I->O                 3.169          pwm_OBUF (pwm)
+    ----------------------------------------
+    Total                      7.265ns (6.020ns logic, 1.246ns route)
+                                       (82.9% logic, 17.1% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 10 / 3
+-------------------------------------------------------------------------
+Delay:               7.752ns (Levels of Logic = 12)
+  Source:            consigna_velocidad<0> (PAD)
+  Destination:       pwm (PAD)
+
+  Data Path: consigna_velocidad<0> to pwm
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.426  consigna_velocidad_0_IBUF (consigna_velocidad_0_IBUF)
+     LUT2:I1->O            1   0.612   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_lut<0> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<0> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<1> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<2> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<3> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<4> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<5> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<6> (Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<6>)
+     MUXCY:CI->O           1   0.399   0.357  Inst_Comparador_8bits/Mcompar_pwm_cmp_ge0000_cy<7> (Inst_Comparador_8bits/pwm_cmp_ge0000)
+     INV:I->O              1   0.612   0.357  Inst_Comparador_8bits/pwm1_INV_0 (pwm_OBUF)
+     OBUF:I->O                 3.169          pwm_OBUF (pwm)
+    ----------------------------------------
+    Total                      7.752ns (6.611ns logic, 1.140ns route)
+                                       (85.3% logic, 14.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.17 secs
+ 
+--> 
+
+Total memory usage is 244856 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

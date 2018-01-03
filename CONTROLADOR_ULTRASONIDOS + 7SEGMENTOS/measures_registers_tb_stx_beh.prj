@@ -1,0 +1,3 @@
+vhdl isim_temp "ffD_reset.vhd"
+vhdl isim_temp "meaures_registers.vhd"
+vhdl isim_temp "measures_registers_tb.vhd"

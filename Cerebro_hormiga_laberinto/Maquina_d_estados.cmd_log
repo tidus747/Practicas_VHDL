@@ -1,0 +1,1 @@
+vhdtdtfi -prj Cerebr_hormiga -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebr_hormiga/Maquina_d_estados.vhi" -module Maquina_d_estados -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Maquina_d_estados.vhd 

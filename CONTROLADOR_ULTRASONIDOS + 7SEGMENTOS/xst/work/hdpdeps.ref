@@ -1,0 +1,133 @@
+V3 73
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/PRACTICA7 EXAMEN/CONTROLADOR_ULTRASONIDOS/contador_19455.vhd" 2014/11/26.00:03:01 P.58f
+EN work/contador_19455 1416960193 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/PRACTICA7 EXAMEN/CONTROLADOR_ULTRASONIDOS/contador_19455.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/contador_19455/Behavioral 1416960194 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/PRACTICA7 EXAMEN/CONTROLADOR_ULTRASONIDOS/contador_19455.vhd" \
+      EN work/contador_19455 1416960193
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/PRACTICA7 EXAMEN/CONTROLADOR_ULTRASONIDOS/cont_preescalado.vhd" 2014/11/25.22:45:30 P.58f
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/abs_counter.vhd" 2014/11/27.00:12:15 P.58f
+EN work/abs_counter 1417091791 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/abs_counter.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221 \
+      PB ieee/std_logic_arith 1364358219
+AR work/abs_counter/Behavioral 1417091792 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/abs_counter.vhd" \
+      EN work/abs_counter 1417091791
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/control_ultrasonidos.vhd" 2014/11/27.12:36:21 P.58f
+EN work/control_ultrasonidos 1417091813 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/control_ultrasonidos.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/control_ultrasonidos/Behavioral 1417091814 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/control_ultrasonidos.vhd" \
+      EN work/control_ultrasonidos 1417091813 CP cont_preescalado \
+      CP cycle_counter_19455 CP fsm_control CP top_bi_dir CP eco_counter \
+      CP measures_registers
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/cont_preescalado.vhd" 2014/11/27.12:33:47 P.58f
+EN work/cont_preescalado 1417091801 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/cont_preescalado.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/std_logic_arith 1364358219 \
+      PB ieee/STD_LOGIC_UNSIGNED 1364358221
+AR work/cont_preescalado/Behavioral 1417091802 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/cont_preescalado.vhd" \
+      EN work/cont_preescalado 1417091801
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/cycle_counter_19455.vhd" 2014/11/27.01:43:53 P.58f
+EN work/cycle_counter_19455 1417091803 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/cycle_counter_19455.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221 \
+      PB ieee/std_logic_arith 1364358219
+AR work/cycle_counter_19455/Behavioral 1417091804 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/cycle_counter_19455.vhd" \
+      EN work/cycle_counter_19455 1417091803
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/DecBin2a4.vhd" 2014/10/07.09:42:47 P.58f
+EN work/DecBin2a4 1417091793 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/DecBin2a4.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/DecBin2a4/Behavioral 1417091794 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/DecBin2a4.vhd" \
+      EN work/DecBin2a4 1417091793
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/decodificador_2.vhd" 2014/11/24.12:30:53 P.58f
+EN work/decodificador 1417091795 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/decodificador_2.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/decodificador/Behavioral 1417091796 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/decodificador_2.vhd" \
+      EN work/decodificador 1417091795
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/eco_counter.vhd" 2014/11/27.00:14:14 P.58f
+EN work/eco_counter 1417091809 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/eco_counter.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/eco_counter/Behavioral 1417091810 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/eco_counter.vhd" \
+      EN work/eco_counter 1417091809 CP abs_counter
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ffD_reset.vhd" 2014/11/27.01:04:06 P.58f
+EN work/ffD_reset 1417091789 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ffD_reset.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/ffD_reset/Behavioral 1417091790 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ffD_reset.vhd" \
+      EN work/ffD_reset 1417091789
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/fsm_control.vhd" 2014/11/27.10:25:33 P.58f
+EN work/fsm_control 1417091805 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/fsm_control.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/STD_LOGIC_UNSIGNED 1364358221 \
+      PB ieee/std_logic_arith 1364358219
+AR work/fsm_control/Behavioral 1417091806 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/fsm_control.vhd" \
+      EN work/fsm_control 1417091805
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/meaures_registers.vhd" 2014/11/27.01:04:56 P.58f
+EN work/measures_registers 1417091811 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/meaures_registers.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/measures_registers/Behavioral 1417091812 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/meaures_registers.vhd" \
+      EN work/measures_registers 1417091811 CP ffD_reset
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/multiplexor.vhd" 2014/10/07.08:50:25 P.58f
+EN work/multiplexor 1417091797 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/multiplexor.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/multiplexor/Behavioral 1417091798 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/multiplexor.vhd" \
+      EN work/multiplexor 1417091797
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/seq_generator.vhd" 2014/10/07.08:06:02 P.58f
+EN work/seq_generator 1417091799 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/seq_generator.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/seq_generator/arch 1417091800 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/seq_generator.vhd" \
+      EN work/seq_generator 1417091799
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/seven_segment_mux.vhd" 2014/11/27.02:54:04 P.58f
+EN work/seven_segment_mux 1417091815 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/seven_segment_mux.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/seven_segment_mux/Behavioral 1417091816 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/seven_segment_mux.vhd" \
+      EN work/seven_segment_mux 1417091815 CP DecBin2a4 CP decodificador \
+      CP multiplexor CP seq_generator
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/top_bi_dir.vhd" 2014/11/27.01:27:02 P.58f
+EN work/top_bi_dir 1417091807 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/top_bi_dir.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/top_bi_dir/Behavioral 1417091808 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/top_bi_dir.vhd" \
+      EN work/top_bi_dir 1417091807
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ultrasonidos_7segmentos.vhd" 2014/11/27.02:57:06 P.58f
+EN work/ultrasonidos_7segmentos 1417091817 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ultrasonidos_7segmentos.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/ultrasonidos_7segmentos/Behavioral 1417091818 \
+      FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ultrasonidos_7segmentos.vhd" \
+      EN work/ultrasonidos_7segmentos 1417091817 CP control_ultrasonidos \
+      CP seven_segment_mux
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS/abs_counter.vhd" 2014/11/27.00:12:15 P.58f
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS/contador_generico.vhd" 2014/11/26.21:02:09 P.58f
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS/control_ultrasonidos.vhd" 2014/11/27.02:34:09 P.58f
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS/cont_preescalado.vhd" 2014/11/25.22:45:30 P.58f
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS/cycle_counter_19455.vhd" 2014/11/27.01:43:53 P.58f
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS/eco_counter.vhd" 2014/11/27.00:14:14 P.58f
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS/ffD_reset.vhd" 2014/11/27.01:04:06 P.58f
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS/fsm_control.vhd" 2014/11/26.22:39:15 P.58f
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS/meaures_registers.vhd" 2014/11/27.01:04:56 P.58f
+FL "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS/top_bi_dir.vhd" 2014/11/27.01:27:02 P.58f

@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ultrasonidos_7segmentos.xst" -ofn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ultrasonidos_7segmentos.syr" 
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ultrasonidos_7segmentos.xst" -ofn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ultrasonidos_7segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "ultrasonidos_7segmentos.ngc" ultrasonidos_7segmentos.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o ultrasonidos_7segmentos_map.ncd ultrasonidos_7segmentos.ngd ultrasonidos_7segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 ultrasonidos_7segmentos_map.ncd ultrasonidos_7segmentos.ncd ultrasonidos_7segmentos.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ultrasonidos_7segmentos.twx ultrasonidos_7segmentos.ncd -o ultrasonidos_7segmentos.twr ultrasonidos_7segmentos.pcf 
+bitgen -intstyle ise -f ultrasonidos_7segmentos.ut ultrasonidos_7segmentos.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 "ultrasonidos_7segmentos.ngc" ultrasonidos_7segmentos.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o ultrasonidos_7segmentos_map.ncd ultrasonidos_7segmentos.ngd ultrasonidos_7segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 ultrasonidos_7segmentos_map.ncd ultrasonidos_7segmentos.ncd ultrasonidos_7segmentos.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ultrasonidos_7segmentos.twx ultrasonidos_7segmentos.ncd -o ultrasonidos_7segmentos.twr ultrasonidos_7segmentos.pcf 
+bitgen -intstyle ise -f ultrasonidos_7segmentos.ut ultrasonidos_7segmentos.ncd 
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ultrasonidos_7segmentos.xst" -ofn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ultrasonidos_7segmentos.syr" 
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ultrasonidos_7segmentos.xst" -ofn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ultrasonidos_7segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_assignation.ucf -p xc3s100e-cp132-4 "ultrasonidos_7segmentos.ngc" ultrasonidos_7segmentos.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o ultrasonidos_7segmentos_map.ncd ultrasonidos_7segmentos.ngd ultrasonidos_7segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 ultrasonidos_7segmentos_map.ncd ultrasonidos_7segmentos.ncd ultrasonidos_7segmentos.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ultrasonidos_7segmentos.twx ultrasonidos_7segmentos.ncd -o ultrasonidos_7segmentos.twr ultrasonidos_7segmentos.pcf -ucf pin_assignation.ucf 
+bitgen -intstyle ise -f ultrasonidos_7segmentos.ut ultrasonidos_7segmentos.ncd 
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ultrasonidos_7segmentos.xst" -ofn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS + 7SEGMENTOS/ultrasonidos_7segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin_assignation.ucf -p xc3s100e-cp132-4 "ultrasonidos_7segmentos.ngc" ultrasonidos_7segmentos.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o ultrasonidos_7segmentos_map.ncd ultrasonidos_7segmentos.ngd ultrasonidos_7segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 ultrasonidos_7segmentos_map.ncd ultrasonidos_7segmentos.ncd ultrasonidos_7segmentos.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ultrasonidos_7segmentos.twx ultrasonidos_7segmentos.ncd -o ultrasonidos_7segmentos.twr ultrasonidos_7segmentos.pcf -ucf pin_assignation.ucf 
+bitgen -intstyle ise -f ultrasonidos_7segmentos.ut ultrasonidos_7segmentos.ncd 

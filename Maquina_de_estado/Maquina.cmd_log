@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Maquina.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Maquina.syr" 
+vhdtdtfi -prj Maquina_de_estado -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Maquina.vhi" -module Maquina -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Maquina.vhd 

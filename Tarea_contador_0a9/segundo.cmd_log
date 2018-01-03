@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/segundo.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/segundo.syr" 
+vhdtdtfi -prj Tarea_contador -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Tarea_contador/segundo.vhi" -module segundo -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work variador_de_frecuencia.vhd 

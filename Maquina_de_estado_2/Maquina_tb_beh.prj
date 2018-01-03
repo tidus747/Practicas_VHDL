@@ -1,0 +1,3 @@
+vhdl work "ffD_reset.vhd"
+vhdl work "Maquina.vhd"
+vhdl work "Maquina_tb.vhd"

@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/PRACTICA7 EXAMEN/CONTROLADOR_ULTRASONIDOS/cont_preescalado.xst" -ofn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/PRACTICA7 EXAMEN/CONTROLADOR_ULTRASONIDOS/cont_preescalado.syr" 
+xst -intstyle ise -ifn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/PRACTICA7 EXAMEN/CONTROLADOR_ULTRASONIDOS/cont_preescalado.xst" -ofn "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/PRACTICA7 EXAMEN/CONTROLADOR_ULTRASONIDOS/cont_preescalado.syr" 
+vhdtdtfi -prj CONTROLADOR_ULTRASONIDOS -o "C:/Users/Tami/Desktop/PRACTICAS DIGITAL/ULTRASONIDOS/CONTROLADOR_ULTRASONIDOS/cont_preescalado.vhi" -module cont_preescalado -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work cont_preescalado.vhd 

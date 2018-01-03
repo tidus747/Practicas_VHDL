@@ -1,0 +1,2 @@
+vhdtdtfi -prj Practica_4 -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/mux_2a1_4bits.vhi" -module mux_2a1_4bits -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work mux_2a1.vhd -lib work mux_2a1_4bits.vhd 
+vhdtdtfi -prj Practica_4 -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_4/mux_2a1_4bits.vhi" -module mux_2a1_4bits -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work mux_2a1.vhd -lib work mux_2a1_4bits.vhd 

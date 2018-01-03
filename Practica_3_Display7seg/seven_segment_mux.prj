@@ -1,0 +1,5 @@
+vhdl work "seq_generator.vhd"
+vhdl work "multiplexor.vhd"
+vhdl work "decodificador2a4.vhd"
+vhdl work "decodificador.vhd"
+vhdl work "seven_segment_mux.vhd"

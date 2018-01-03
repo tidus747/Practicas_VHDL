@@ -1,0 +1,1 @@
+vhdtdtfi -prj Cerebr_hormiga -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Cerebr_hormiga/preescalado_motor.vhi" -module preescalado_motor -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work prescaler_motor.vhd 

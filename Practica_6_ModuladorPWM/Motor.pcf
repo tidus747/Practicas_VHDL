@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.58f on Tue Nov 18 09:36:26 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "giro_derecha" LOCATE = SITE "C11" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "giro_der" LOCATE = SITE "C13" LEVEL 1;
+COMP "giro_iz" LOCATE = SITE "A13" LEVEL 1;
+COMP "giro_izquierda" LOCATE = SITE "M4" LEVEL 1;
+COMP "consigna_velocidad<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "consigna_velocidad<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "consigna_velocidad<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "consigna_velocidad<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "consigna_velocidad<4>" LOCATE = SITE "G3" LEVEL 1;
+COMP "consigna_velocidad<5>" LOCATE = SITE "F3" LEVEL 1;
+COMP "consigna_velocidad<6>" LOCATE = SITE "E2" LEVEL 1;
+COMP "consigna_velocidad<7>" LOCATE = SITE "N3" LEVEL 1;
+COMP "reset" LOCATE = SITE "G12" LEVEL 1;
+COMP "pwm" LOCATE = SITE "C12" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

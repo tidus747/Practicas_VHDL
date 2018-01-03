@@ -1,0 +1,37 @@
+V3 19
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador.vhd" 2014/10/11.19:14:12 P.58f
+EN work/decodificador 1413129444 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/decodificador/Behavioral 1413129445 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador.vhd" \
+      EN work/decodificador 1413129444
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador2a4.vhd" 2014/10/12.16:11:33 P.58f
+EN work/decodificador2a4 1413129440 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador2a4.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/decodificador2a4/Behavioral 1413129441 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/decodificador2a4.vhd" \
+      EN work/decodificador2a4 1413129440
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/multiplexor.vhd" 2014/10/12.01:53:38 P.58f
+EN work/multiplexor 1413129438 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/multiplexor.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/multiplexor/Behavioral 1413129439 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/multiplexor.vhd" \
+      EN work/multiplexor 1413129438
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/seq_generator.vhd" 2014/10/07.09:20:05 P.58f
+EN work/seq_generator 1413129442 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/seq_generator.vhd" \
+      PB ieee/std_logic_1164 1364358218 PB ieee/NUMERIC_STD 1364358223
+AR work/seq_generator/arch 1413129443 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/seq_generator.vhd" \
+      EN work/seq_generator 1413129442
+FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/seven_segment_mux.vhd" 2014/10/12.16:57:12 P.58f
+EN work/seven_segment_mux 1413129446 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/seven_segment_mux.vhd" \
+      PB ieee/std_logic_1164 1364358218
+AR work/seven_segment_mux/Behavioral 1413129447 \
+      FL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_3REP/seven_segment_mux.vhd" \
+      EN work/seven_segment_mux 1413129446 CP multiplexor CP decodificador2a4 \
+      CP seq_generator CP decodificador

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_2REP/decodificador.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_2REP/decodificador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 "decodificador.ngc" decodificador.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o decodificador_map.ncd decodificador.ngd decodificador.pcf 
+par -w -intstyle ise -ol high -t 1 decodificador_map.ncd decodificador.ncd decodificador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decodificador.twx decodificador.ncd -o decodificador.twr decodificador.pcf 
+bitgen -intstyle ise -f decodificador.ut decodificador.ncd 

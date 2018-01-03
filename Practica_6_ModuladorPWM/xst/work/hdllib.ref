@@ -1,0 +1,8 @@
+EN cont_preescalado NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Prescaler.vhd" sub00/vhpl02 1416303374
+AR motor behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.vhd" sub00/vhpl07 1416303379
+EN motor NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.vhd" sub00/vhpl06 1416303378
+AR cont_preescalado behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Prescaler.vhd" sub00/vhpl03 1416303375
+AR comparador_8bits behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Comparador_8bits.vhd" sub00/vhpl01 1416303373
+EN comparador_8bits NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Comparador_8bits.vhd" sub00/vhpl00 1416303372
+EN contador NULL "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/contador.vhd" sub00/vhpl04 1416303376
+AR contador behavioral "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/contador.vhd" sub00/vhpl05 1416303377

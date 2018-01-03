@@ -1,0 +1,1 @@
+vhdtdtfi -prj Maquina_de_estado -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/Intercambiador.vhi" -module Intercambiador -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Intercambiador.vhd 

@@ -1,0 +1,2 @@
+vhdtdtfi -prj Controlador_ultrasonidos -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/ffD_reset.vhi" -module ffD_reset -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ffD_reset.vhd 
+vhdtdtfi -prj Controlador_ultrasonidos -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/ffD_reset.vhi" -module ffD_reset -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ffD_reset.vhd 

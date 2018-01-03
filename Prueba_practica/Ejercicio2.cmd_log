@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio2.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Prueba_practica/Ejercicio2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ejercicio3.ucf -p xc3s100e-vq100-5 "Ejercicio2.ngc" Ejercicio2.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ejercicio3.ucf -p xc3s100e-vq100-5 "Ejercicio2.ngc" Ejercicio2.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Ejercicio3.ucf -p xc3s100e-vq100-5 "Ejercicio2.ngc" Ejercicio2.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o Ejercicio2_map.ncd Ejercicio2.ngd Ejercicio2.pcf 

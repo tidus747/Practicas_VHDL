@@ -1,0 +1,4 @@
+vhdl work "variador_de_frecuencia.vhd"
+vhdl work "decodificador.vhd"
+vhdl work "contador0_a_9.vhd"
+vhdl work "visualizacion.vhd"

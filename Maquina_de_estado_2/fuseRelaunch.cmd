@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquin_de_estado_examen/Maquina_tb_isim_beh.exe" -prj "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquin_de_estado_examen/Maquina_tb_beh.prj" "work.Maquina_tb" 

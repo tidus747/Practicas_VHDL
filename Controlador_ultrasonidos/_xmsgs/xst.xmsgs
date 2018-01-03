@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/eco_counter.vhd</arg>&quot; line <arg fmt="%d" index="2">79</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">count</arg>&apos; of component &apos;<arg fmt="%s" index="4">abs_counter</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/eco_counter.vhd</arg>&quot; line <arg fmt="%d" index="2">123</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">t</arg>&apos; of component &apos;<arg fmt="%s" index="4">abs_counter</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/Contador_19455.vhd</arg>&quot; line <arg fmt="%d" index="2">58</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">t</arg>&apos; of component &apos;<arg fmt="%s" index="4">abs_counter</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Controlador_ultrasonidos/decodificador2a4.vhd</arg>&quot; line <arg fmt="%d" index="2">55</arg>: Mux is complete : default of case is discarded
+</msg>
+
+</messages>
+

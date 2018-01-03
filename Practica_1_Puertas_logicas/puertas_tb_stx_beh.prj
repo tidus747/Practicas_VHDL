@@ -1,0 +1,2 @@
+vhdl isim_temp "puertas.vhd"
+vhdl isim_temp "puertas_tb.vhd"

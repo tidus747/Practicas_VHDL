@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.syr" 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Motor_UCF.ucf -p xc3s100e-cp132-5 "Motor.ngc" Motor.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Motor_map.ncd Motor.ngd Motor.pcf 
+par -w -intstyle ise -ol high -t 1 Motor_map.ncd Motor.ncd Motor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Motor.twx Motor.ncd -o Motor.twr Motor.pcf -ucf Motor_UCF.ucf 
+bitgen -intstyle ise -f Motor.ut Motor.ncd 
+xst -intstyle ise -ifn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.xst" -ofn "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Practica_6/Motor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Motor_UCF.ucf -p xc3s100e-cp132-5 "Motor.ngc" Motor.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Motor_map.ncd Motor.ngd Motor.pcf 
+par -w -intstyle ise -ol high -t 1 Motor_map.ncd Motor.ncd Motor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Motor.twx Motor.ncd -o Motor.twr Motor.pcf -ucf Motor_UCF.ucf 
+bitgen -intstyle ise -f Motor.ut Motor.ncd 

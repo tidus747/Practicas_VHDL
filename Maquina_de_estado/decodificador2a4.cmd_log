@@ -1,0 +1,1 @@
+vhdtdtfi -prj Maquina_de_estado -o "C:/Users/Ivan/Desktop/Practicas digital  Repeticion/Realizacion/Maquina_de_estado/decodificador2a4.vhi" -module decodificador2a4 -template C:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work decodificador2a4.vhd 
